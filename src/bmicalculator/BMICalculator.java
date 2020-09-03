@@ -79,7 +79,7 @@ public class BMICalculator extends JFrame
         statusTextField.setEditable(false);
         panel.add(statusTextField);
         
-        //add the convert button
+        //add the 'calculate BMI' button
         calcBMI = new JButton();
         calcBMI.setText("Calculate BMI");
         calcBMI.setFont(new Font("Calibri", 1, 20));
